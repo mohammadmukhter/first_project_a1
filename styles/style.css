@@ -24,7 +24,9 @@
   vertical-align:middle;
   color:green;
 }
-
+.section{
+    padding-bottom: 130px;
+}
 /* header section CSS start */
 .header{
     background-image: url('/images/banner/banner2.png');
@@ -58,11 +60,12 @@
     padding: 0px 230px;
     padding-top:130px;
 }
+
+/* profile section CSS start */
 .profile_container{
     display: flex;
     align-items: center;
     gap: 80px;
-    padding-bottom: 130px;
 }
 .profile_title{
 
@@ -76,6 +79,63 @@
     font-size: 16px;
     color: #444343;
     padding-bottom: 25px;
+}
+
+/* plans section CSS start */
+.plan_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.plan_items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan_item_title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    padding: 15px 0px;
+}
+.plan_description{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #737272;
+}
+
+/* call section CSS start */
+.call_container{
+    background-image:linear-gradient(to left, rgba(77, 196, 77,0), rgba(77, 196, 77,.8)), url('/images/watch.png');
+    background-size: cover;
+    border-radius: 5px;
+    text-align: left;
+}
+.call_items{
+
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.call_title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    max-width: 500px;
+    padding-bottom: 25px ;
+}
+.call_btn{
+    background-color:#FFFFFF;
+    color: #00892e;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: none;
 }
 
 /* footer section CSS start */
