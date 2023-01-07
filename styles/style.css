@@ -15,6 +15,16 @@
     border: none;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  vertical-align:middle;
+  color:green;
+}
+
 /* header section CSS start */
 .header{
     background-image: url('/images/banner/banner2.png');
@@ -45,11 +55,27 @@
 
 .main{
     max-width: 1160px;
+    padding: 0px 230px;
     padding-top:130px;
-    padding-bottom:130px;
 }
+.profile_container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 130px;
+}
+.profile_title{
 
-
-
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 20px;
+}
+.profile_title_description, .profile_description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-bottom: 25px;
+}
 
 /* footer section CSS start */
