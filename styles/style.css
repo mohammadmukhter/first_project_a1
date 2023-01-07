@@ -24,7 +24,7 @@
 }
 /* header section CSS start */
 .header{
-    background-image: url('./images/banner/banner2.png');
+    background-image: url('/images/banner/banner2.png');
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -135,7 +135,7 @@
 
 /* call section CSS start */
 .call_container{
-    background-image:linear-gradient(to left, rgba(77, 196, 77,0), rgba(77, 196, 77,.8)), url('./images/watch.png');
+    background-image:linear-gradient(to left, rgba(77, 196, 77,0), rgba(77, 196, 77,.8)), url('/images/watch.png');
     background-size: cover;
     border-radius: 5px;
     text-align: left;
