@@ -10,22 +10,17 @@
     font-size: 20px;
     color: #FFFFFF;
     padding: 20px 25px;
-    background: #F15B22;
+    background: #00892e;
     border-radius: 5px;
     border: none;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
   vertical-align:middle;
   color:green;
 }
 .section{
-    padding-bottom: 130px;
+    margin-bottom: 130px;
 }
 /* header section CSS start */
 .header{
@@ -107,12 +102,44 @@
     color: #737272;
 }
 
+/* skill section CSS start */
+.skill_container{
+    text-align: center;
+}
+.skill_title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.skill_items{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skill_item{
+    background-color: #d5e4d6;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+.skill_item img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 15px;
+}
+.skill_item_title{
+    font-size: 25px;
+    font-weight: 700px;
+    padding-bottom: 20px;
+}
+
+
 /* call section CSS start */
 .call_container{
     background-image:linear-gradient(to left, rgba(77, 196, 77,0), rgba(77, 196, 77,.8)), url('/images/watch.png');
     background-size: cover;
     border-radius: 5px;
     text-align: left;
+    padding-bottom: 60px;
 }
 .call_items{
 
@@ -139,3 +166,56 @@
 }
 
 /* footer section CSS start */
+.footer_container{
+    background-color: black;
+    color: #F8F8F8;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer_items{
+    display: flex;
+    padding: 0px 230px;
+    gap: 330px;
+}
+.copyright{
+    max-width: 400px;
+}
+.footer_title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.f_description{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.subscribe{
+    max-width: 325px;
+}
+.sub_title{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.input_email{
+    padding-bottom: 15px;
+}
+.input_email input{
+    width: 100%;
+    padding: 20px;
+    background: none;
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+}
+.sub_btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: white;
+    color: #00892e;
+    border-radius: 5px;
+}
+.f_icons{
+    padding-top: 25px;
+}
